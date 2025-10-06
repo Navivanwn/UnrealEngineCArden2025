@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\uecarden\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\x64\\uecardeneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\uecarden\\definitions.uecarden.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
