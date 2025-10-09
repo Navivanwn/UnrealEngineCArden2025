@@ -45,6 +45,12 @@
     <ClCompile Include="..\..\Source\UECArden\MyActorTest.h">
       <Filter>Source\UECArden</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UECArden\PlatformActor.cpp">
+      <Filter>Source\UECArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UECArden\PlatformActor.h">
+      <Filter>Source\UECArden</Filter>
+    </ClCompile>
     <None Include="..\..\Source\UECArden\UECArden.Build.cs">
       <Filter>Source\UECArden</Filter>
     </None>

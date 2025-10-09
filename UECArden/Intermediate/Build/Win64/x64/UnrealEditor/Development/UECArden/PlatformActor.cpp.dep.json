@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\source\\uecarden\\platformactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\x64\\uecardeneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\uecarden\\definitions.uecarden.h",
+            "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\source\\uecarden\\platformactor.h",
+            "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\unrealeditor\\inc\\uecarden\\uht\\platformactor.generated.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
