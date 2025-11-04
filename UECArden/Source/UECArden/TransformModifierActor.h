@@ -32,7 +32,7 @@ public:
 	void MoveToNextPosition();
 
 	UFUNCTION(BlueprintCallable, Category = "Transform")
-	void ChangeMaterial(UMaterialInterface* NewMaterial);
+	void ChangeMaterial(TArray<UMaterialInterface*> NewMaterial);
 
 	void DrawDSphere() const; 
 

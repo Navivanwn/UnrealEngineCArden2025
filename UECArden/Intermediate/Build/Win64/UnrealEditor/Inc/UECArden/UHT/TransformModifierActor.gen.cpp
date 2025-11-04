@@ -26,7 +26,7 @@ struct Z_Construct_UFunction_ATransformModifierActor_ChangeMaterial_Statics
 {
 	struct TransformModifierActor_eventChangeMaterial_Parms
 	{
-		UMaterialInterface* NewMaterial;
+		TArray<UMaterialInterface*> NewMaterial;
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
@@ -34,12 +34,15 @@ struct Z_Construct_UFunction_ATransformModifierActor_ChangeMaterial_Statics
 		{ "ModuleRelativePath", "TransformModifierActor.h" },
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_NewMaterial;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_NewMaterial_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_NewMaterial;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATransformModifierActor_ChangeMaterial_Statics::NewProp_NewMaterial = { "NewMaterial", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TransformModifierActor_eventChangeMaterial_Parms, NewMaterial), Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATransformModifierActor_ChangeMaterial_Statics::NewProp_NewMaterial_Inner = { "NewMaterial", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_ATransformModifierActor_ChangeMaterial_Statics::NewProp_NewMaterial = { "NewMaterial", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TransformModifierActor_eventChangeMaterial_Parms, NewMaterial), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATransformModifierActor_ChangeMaterial_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATransformModifierActor_ChangeMaterial_Statics::NewProp_NewMaterial_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATransformModifierActor_ChangeMaterial_Statics::NewProp_NewMaterial,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ATransformModifierActor_ChangeMaterial_Statics::PropPointers) < 2048);
@@ -56,7 +59,7 @@ UFunction* Z_Construct_UFunction_ATransformModifierActor_ChangeMaterial()
 }
 DEFINE_FUNCTION(ATransformModifierActor::execChangeMaterial)
 {
-	P_GET_OBJECT(UMaterialInterface,Z_Param_NewMaterial);
+	P_GET_TARRAY(UMaterialInterface*,Z_Param_NewMaterial);
 	P_FINISH;
 	P_NATIVE_BEGIN;
 	P_THIS->ChangeMaterial(Z_Param_NewMaterial);
@@ -202,7 +205,7 @@ struct Z_Construct_UClass_ATransformModifierActor_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ATransformModifierActor_ChangeMaterial, "ChangeMaterial" }, // 2950959122
+		{ &Z_Construct_UFunction_ATransformModifierActor_ChangeMaterial, "ChangeMaterial" }, // 3281170881
 		{ &Z_Construct_UFunction_ATransformModifierActor_ModifyTargetTransform, "ModifyTargetTransform" }, // 3548602117
 		{ &Z_Construct_UFunction_ATransformModifierActor_MoveToNextPosition, "MoveToNextPosition" }, // 1935636221
 	};
@@ -273,10 +276,10 @@ ATransformModifierActor::~ATransformModifierActor() {}
 struct Z_CompiledInDeferFile_FID_UECArden_Source_UECArden_TransformModifierActor_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ATransformModifierActor, ATransformModifierActor::StaticClass, TEXT("ATransformModifierActor"), &Z_Registration_Info_UClass_ATransformModifierActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATransformModifierActor), 86352568U) },
+		{ Z_Construct_UClass_ATransformModifierActor, ATransformModifierActor::StaticClass, TEXT("ATransformModifierActor"), &Z_Registration_Info_UClass_ATransformModifierActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATransformModifierActor), 2636646115U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UECArden_Source_UECArden_TransformModifierActor_h_1289052108(TEXT("/Script/UECArden"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UECArden_Source_UECArden_TransformModifierActor_h_2011286525(TEXT("/Script/UECArden"),
 	Z_CompiledInDeferFile_FID_UECArden_Source_UECArden_TransformModifierActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UECArden_Source_UECArden_TransformModifierActor_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

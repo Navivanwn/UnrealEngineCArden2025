@@ -51,6 +51,12 @@
     <ClCompile Include="..\..\Source\UECArden\PlatformActor.h">
       <Filter>Source\UECArden</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UECArden\Temperatura.cpp">
+      <Filter>Source\UECArden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UECArden\Temperatura.h">
+      <Filter>Source\UECArden</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UECArden\TransformModifierActor.cpp">
       <Filter>Source\UECArden</Filter>
     </ClCompile>

@@ -70,7 +70,7 @@ void ATransformModifierActor::ModifyTargetTransform(float DeltaTime)
 	if (FVector::Dist(NewPosition, TargetPosition) < 10.0f)
 	{
 		CurrentPositionIndex++;
-		ChangeMaterial(DefaultMaterial);
+
 		if (CurrentPositionIndex >= Positions.Num())
 		{
 			CurrentPositionIndex = 0;
@@ -84,14 +84,15 @@ void ATransformModifierActor::MoveToNextPosition()
 	{
 		FVector TargetPosition = Positions[CurrentPositionIndex];
 		TargetActor->SetActorLocation(TargetPosition);
+		ChangeMaterial(Materials);
 	}
 }
 
-void ATransformModifierActor::ChangeMaterial(UMaterialInterface* NewMaterial)
+void ATransformModifierActor::ChangeMaterial(TArray<UMaterialInterface*> NewMaterial)
 {
-	if (NewMaterial && MeshComponent)
+	if (NewMaterial[0] && MeshComponent)
 	{
-		MeshComponent->SetMaterial(0, NewMaterial);
+		MeshComponent->SetMaterial(0, NewMaterial[0]);
 	}
 }
 
