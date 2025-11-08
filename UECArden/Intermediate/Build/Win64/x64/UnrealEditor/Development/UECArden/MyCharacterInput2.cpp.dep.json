@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\source\\uecarden\\mycharacterinput2.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\x64\\uecardeneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\uecarden\\definitions.uecarden.h",
+            "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\source\\uecarden\\mycharacterinput2.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\unrealeditor\\inc\\uecarden\\uht\\mycharacterinput2.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
