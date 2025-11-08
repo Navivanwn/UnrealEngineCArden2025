@@ -16,7 +16,16 @@
 				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/Input/IA_WeaponFire.uasset",
 				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/ThirdPerson/Input/IMC_Default.uasset",
 				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/ThirdPerson/Blueprints/NewBlueprint.uasset",
-				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/Input/NewInputMappingContext.uasset"
+				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/Input/NewInputMappingContext.uasset",
+				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/IA/BP_SimpleNPC.uasset",
+				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/IA/AIC_NPC.uasset",
+				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/IA/BP_NPC.uasset",
+				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/IA/BT_SimpleNPC.uasset",
+				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/IA/BB_SimpleNPC.uasset",
+				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LO/MA3Z6297SFTDW7ZN5AHF8X.uasset",
+				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/1F/0AOP0QR6L07644PHOE6HQZ.uasset",
+				"D:/UEProjects/UnrealEngineCArden2025/UECArden/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/OZ/FQU14GKQLJ3JUHI9F4PNK0.uasset"
 			]
 		}
 	]

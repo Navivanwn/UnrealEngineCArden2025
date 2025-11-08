@@ -285,6 +285,9 @@
 /I "Editor\SceneDepthPickerMode\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\UHT"
 /I "Editor\AnimationEditMode\Public"
+/I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AIModule\UHT"
+/I "Runtime\AIModule\Classes"
+/I "Runtime\AIModule\Public"
 /I "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\UnrealEditor\Inc\UECArden\UHT"
 /I "D:\UEProjects\UnrealEngineCArden2025\UECArden\Source"
 /external:W0

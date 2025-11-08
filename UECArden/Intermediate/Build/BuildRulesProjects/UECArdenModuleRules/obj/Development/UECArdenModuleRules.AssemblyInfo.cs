@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UECArdenModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a6629fc01a6917d8423ce78022459c5f9484f81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed4eff3122a907ba7fdfa457687d1b906d870dd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("UECArdenModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UECArdenModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

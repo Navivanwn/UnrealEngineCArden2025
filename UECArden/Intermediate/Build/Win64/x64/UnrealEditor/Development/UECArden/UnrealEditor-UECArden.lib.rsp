@@ -7,7 +7,10 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UECArdenEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\AIC_NPC.gen.cpp.obj"
+"D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\BTTask_FindRandomLocation.gen.cpp.obj"
 "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\Car.gen.cpp.obj"
+"D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\C_NPC.gen.cpp.obj"
 "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\MyActorTest.gen.cpp.obj"
 "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\MyCharacterInput2.gen.cpp.obj"
 "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\PlatformActor.gen.cpp.obj"
@@ -15,7 +18,10 @@
 "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\TransformModifierActor.gen.cpp.obj"
 "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\UECArden.init.gen.cpp.obj"
 "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\Vehicle.gen.cpp.obj"
+"D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\AIC_NPC.cpp.obj"
+"D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\BTTask_FindRandomLocation.cpp.obj"
 "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\Car.cpp.obj"
+"D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\C_NPC.cpp.obj"
 "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\MyActorTest.cpp.obj"
 "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\MyCharacterInput2.cpp.obj"
 "D:\UEProjects\UnrealEngineCArden2025\UECArden\Intermediate\Build\Win64\x64\UnrealEditor\Development\UECArden\PlatformActor.cpp.obj"

@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\unrealeditor\\inc\\uecarden\\uht\\aic_npc.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\x64\\uecardeneditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\uecarden\\definitions.uecarden.h",
+            "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\source\\uecarden\\aic_npc.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\aimodule\\classes\\aicontroller.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\aimodule\\classes\\aitypes.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\navigationsystem\\public\\navigationsystemtypes.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\ai\\navigationsystemconfig.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\navigationsystemconfig.generated.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aitypes.generated.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\aimodule\\classes\\perception\\aiperceptionlistenerinterface.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aiperceptionlistenerinterface.generated.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\aimodule\\classes\\genericteamagentinterface.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\genericteamagentinterface.generated.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\source\\runtime\\engine\\public\\visuallogger\\visualloggerdebugsnapshotinterface.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\visualloggerdebugsnapshotinterface.generated.h",
+            "c:\\unreal engine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aicontroller.generated.h",
+            "d:\\ueprojects\\unrealenginecarden2025\\uecarden\\intermediate\\build\\win64\\unrealeditor\\inc\\uecarden\\uht\\aic_npc.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
